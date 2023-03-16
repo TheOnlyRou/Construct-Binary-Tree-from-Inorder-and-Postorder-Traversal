@@ -34,24 +34,26 @@ Given two integer arrays `inorder` and `postorder` where `inorder` is the 
 
 Inorder traversal of a binary tree means visiting its nodes in the order of "left subtree, root, right subtree". For example, given the binary tree:
 
-markdownCopy code
 
-         3    
-        / \
-       9   20
-          /  \     15   7`
+```
+     3    
+    / \
+   9   20
+      /  \     
+     15   7
+```
 
 The inorder traversal is: [9, 3, 15, 20, 7]
 
 Postorder traversal of a binary tree means visiting its nodes in the order of "left subtree, right subtree, root". For example, given the binary tree:
 
-markdownCopy code
+
 
          3    
         / \
        9   20
           /  \
-         15   7`
+         15   7
 
 The postorder traversal is: [9, 15, 7, 20, 3]
 
